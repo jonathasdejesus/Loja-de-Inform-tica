@@ -1,3 +1,4 @@
+/*TODOS OS AJUSTES*/
 *{
     margin: 0;
     padding: 0;
@@ -8,21 +9,20 @@
     border: none;
     outline: none;
 }
-
 img{max-width: 100%;}
 ul{list-style: none;}
 a{text-decoration: none;}
 h2{font-size: 1.2em color: #333;}
 p{font-size: 1em; color: #777;}
 
+
+/*CABEÇALHO*/
 .cabecalho{
     width: 100%;
     float: left;
     padding: 50px 8%;
-    background-color: #0497da;
-    
+    background-color: #0497da;   
 }
-
 .logo a{
     width: 271px; 
     height: 76px; 
@@ -30,18 +30,16 @@ p{font-size: 1em; color: #777;}
     background: url(../imagens/logo.png)no-repeat;
     font-size: 0;
 }
-
 .cabecalho form{
     width: 30%;
     float: right;
 }
-
 .cabecalho input[type="text"] {
     width: 85%;
     float: left;
     padding: 15px 10px;
+    border-radius: 5px 0 0 5px;
 }
-
 .cabecalho button{
     width: 15%;
     float: right;
@@ -49,24 +47,147 @@ p{font-size: 1em; color: #777;}
     background-color: #182e51;
     color: #fff;
     cursor: pointer;
+    border-radius: 0 5px 5px 0;
 }
 
+
+/*MENU*/
 .menu{
     width: 100%;
     float: left;
     background-color: #111;
     padding: 18px 8%;
 }
-
 .menu li{
     float: left;
 }
-
 .menu li a{
     color: #9d9d9d; 
     margin-right: 25px;
 }
-
 .menu li a:hover{
+    color: #fff;
+}
+
+
+/*SOCIAL ICONES*/
+.social-icones{
+    float: right;
+}
+.social-icones a{
+    color: #fff;
+    float: left;
+    margin-left: 12px;
+}
+.btn-facebook:hover{
+    color: #3b5998;   
+}
+.btn-instagram:hover{
+    color: #c13584 ;
+}
+.btn-twitter:hover{
+    color: #54a4d6;
+}
+
+
+/*PRINCIPAL*/
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+.sobre h2{
+    margin-bottom:15px;
+}
+.sobre img{
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15px 0;
+}
+.sobre p{
+    text-align: justify;
+}
+
+
+/*ONDE ESTAMOS*/
+.onde-estamos{
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+.onde-estamos h2{
+    margin-bottom: 5px;
+}
+.onde-estamos iframe{
+    width: 100%;
+    height: 250px;
+    margin: 20px 0;
+}
+.onde-estamos li{
+    color: #777;
+    margin-bottom: 10px;
+}
+.onde-estamos i{
+    margin-right: 5px;
+}
+
+
+/*INFORMAÇÕES*/
+.informacoes{
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 50px 8%;
+}
+.informacoes h3{
+    font-size: 1.8em;
+    color: #fff;
+}
+.informacoes p{
+    font-size: 1.2em;
+    color: #fff;
+}
+.informacoes form{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.informacoes form input{
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: initial;
+    float: left;
+}
+.informacoes button{
+    width: 18%;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+}
+
+
+/*RODAPÉ*/
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #0497da;
+    padding: 20px 8%;
+    text-align: center;
+}
+.rodape p{
     color: #fff;
 }
